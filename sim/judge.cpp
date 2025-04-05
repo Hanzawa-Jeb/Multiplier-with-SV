@@ -8,9 +8,9 @@ extern "C" unsigned int mul_judge (
 ){
     
     int right = 0;
-    long long int simulate_result = multiplicand * multiplier;
+    long long int unsigned simulate_result = multiplicand * multiplier;
 
-    if (multiplicand * multiplier == product) {
+    if (simulate_result == product) {
         right = 1;
     }
 

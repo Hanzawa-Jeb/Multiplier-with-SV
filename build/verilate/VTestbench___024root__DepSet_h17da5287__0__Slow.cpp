@@ -6,7 +6,6 @@
 #include "VTestbench___024root.h"
 
 VL_ATTR_COLD void VTestbench___024root___eval_static__TOP(VTestbench___024root* vlSelf);
-VL_ATTR_COLD void VTestbench___024root____Vm_traceActivitySetAll(VTestbench___024root* vlSelf);
 
 VL_ATTR_COLD void VTestbench___024root___eval_static(VTestbench___024root* vlSelf) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestbench___024root___eval_static\n"); );
@@ -14,7 +13,6 @@ VL_ATTR_COLD void VTestbench___024root___eval_static(VTestbench___024root* vlSel
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
     VTestbench___024root___eval_static__TOP(vlSelf);
-    VTestbench___024root____Vm_traceActivitySetAll(vlSelf);
 }
 
 VL_ATTR_COLD void VTestbench___024root___eval_static__TOP(VTestbench___024root* vlSelf) {
@@ -22,7 +20,7 @@ VL_ATTR_COLD void VTestbench___024root___eval_static__TOP(VTestbench___024root* 
     VTestbench__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
-    vlSelfRef.Testbench__DOT__mul__DOT__work_cnt = 0U;
+    vlSelfRef.Testbench__DOT__mul__DOT__finish_reg = 0U;
 }
 
 VL_ATTR_COLD void VTestbench___024root___eval_final(VTestbench___024root* vlSelf) {
@@ -58,6 +56,9 @@ VL_ATTR_COLD void VTestbench___024root___dump_triggers__act(VTestbench___024root
     if ((8ULL & vlSelfRef.__VactTriggered.word(0U))) {
         VL_DBG_MSGF("         'act' region trigger index 3 is active: @([true] __VdlySched.awaitingCurrentTime())\n");
     }
+    if ((0x10ULL & vlSelfRef.__VactTriggered.word(0U))) {
+        VL_DBG_MSGF("         'act' region trigger index 4 is active: @(posedge Testbench.mul.finish_reg)\n");
+    }
 }
 #endif  // VL_DEBUG
 
@@ -82,20 +83,11 @@ VL_ATTR_COLD void VTestbench___024root___dump_triggers__nba(VTestbench___024root
     if ((8ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         VL_DBG_MSGF("         'nba' region trigger index 3 is active: @([true] __VdlySched.awaitingCurrentTime())\n");
     }
+    if ((0x10ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
+        VL_DBG_MSGF("         'nba' region trigger index 4 is active: @(posedge Testbench.mul.finish_reg)\n");
+    }
 }
 #endif  // VL_DEBUG
-
-VL_ATTR_COLD void VTestbench___024root____Vm_traceActivitySetAll(VTestbench___024root* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    VTestbench___024root____Vm_traceActivitySetAll\n"); );
-    VTestbench__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Body
-    vlSelfRef.__Vm_traceActivity[0U] = 1U;
-    vlSelfRef.__Vm_traceActivity[1U] = 1U;
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.__Vm_traceActivity[3U] = 1U;
-    vlSelfRef.__Vm_traceActivity[4U] = 1U;
-}
 
 VL_ATTR_COLD void VTestbench___024root___ctor_var_reset(VTestbench___024root* vlSelf) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestbench___024root___ctor_var_reset\n"); );
@@ -114,13 +106,16 @@ VL_ATTR_COLD void VTestbench___024root___ctor_var_reset(VTestbench___024root* vl
     vlSelf->Testbench__DOT__mul__DOT__product_reg = VL_RAND_RESET_Q(64);
     vlSelf->Testbench__DOT__mul__DOT__fsm_state_reg = VL_RAND_RESET_I(2);
     vlSelf->Testbench__DOT__mul__DOT__work_cnt = VL_RAND_RESET_I(5);
+    vlSelf->Testbench__DOT__mul__DOT__finish_reg = VL_RAND_RESET_I(1);
     vlSelf->Testbench__DOT__judge__DOT__multiplicand_reg = VL_RAND_RESET_I(32);
     vlSelf->Testbench__DOT__judge__DOT__multiplier_reg = VL_RAND_RESET_I(32);
+    vlSelf->__Vdly__Testbench__DOT__mul__DOT__fsm_state_reg = VL_RAND_RESET_I(2);
     vlSelf->__Vdly__Testbench__DOT__mul__DOT__product_reg = VL_RAND_RESET_Q(64);
     vlSelf->__Vdly__Testbench__DOT__mul__DOT__work_cnt = VL_RAND_RESET_I(5);
     vlSelf->__Vtrigprevexpr___TOP__Testbench__DOT__clk__0 = VL_RAND_RESET_I(1);
     vlSelf->__Vtrigprevexpr___TOP__Testbench__DOT__rst__0 = VL_RAND_RESET_I(1);
-    for (int __Vi0 = 0; __Vi0 < 5; ++__Vi0) {
+    vlSelf->__Vtrigprevexpr___TOP__Testbench__DOT__mul__DOT__finish_reg__0 = VL_RAND_RESET_I(1);
+    for (int __Vi0 = 0; __Vi0 < 4; ++__Vi0) {
         vlSelf->__Vm_traceActivity[__Vi0] = 0;
     }
 }

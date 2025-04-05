@@ -22,6 +22,8 @@ void VTestbench___024root___eval_initial(VTestbench___024root* vlSelf) {
         = vlSelfRef.Testbench__DOT__clk;
     vlSelfRef.__Vtrigprevexpr___TOP__Testbench__DOT__rst__0 
         = vlSelfRef.Testbench__DOT__rst;
+    vlSelfRef.__Vtrigprevexpr___TOP__Testbench__DOT__mul__DOT__finish_reg__0 
+        = vlSelfRef.Testbench__DOT__mul__DOT__finish_reg;
 }
 
 VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(VTestbench___024root* vlSelf) {
@@ -37,583 +39,183 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__rst = 0U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 1U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 2U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 3U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 4U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 5U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 6U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 7U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 8U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 9U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0xaU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0xbU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0xcU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0xdU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0xeU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0xfU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
+    vlSelfRef.Testbench__DOT__multiplicand = 0x190U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x1f4U;
+    co_await vlSelfRef.__VtrigSched_haa81d3e7__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge Testbench.mul.finish_reg)", 
+                                                         "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
+                                                         21);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x10U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x11U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x12U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x13U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x14U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x15U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x16U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x17U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x18U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x19U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x1aU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x1bU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x1cU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x1dU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x1eU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x1fU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x20U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x21U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x22U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x23U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x24U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x25U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x26U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x27U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x28U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x29U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x2aU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x2bU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x2cU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x2dU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x2eU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x2fU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x30U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x31U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x32U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x33U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x34U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x35U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x36U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x37U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x38U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x39U;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x3aU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x3bU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x3cU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x3dU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x3eU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x3fU;
-    vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
-    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
-    co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
-                                         nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                         21);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
-    vlSelfRef.Testbench__DOT__start = 0U;
-    vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x40U;
     VL_WRITEF_NX("success!!!\n",0);
-    VL_FINISH_MT("/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 28, "");
+    VL_FINISH_MT("/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 26, "");
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
 }
 
@@ -626,7 +228,7 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__1(V
         co_await vlSelfRef.__VdlySched.delay(0x1f4ULL, 
                                              nullptr, 
                                              "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
-                                             32);
+                                             30);
         vlSelfRef.Testbench__DOT__clk = (1U & (~ (IData)(vlSelfRef.Testbench__DOT__clk)));
     }
 }
@@ -642,6 +244,8 @@ void VTestbench___024root___nba_sequent__TOP__1(VTestbench___024root* vlSelf);
 void VTestbench___024root___nba_sequent__TOP__2(VTestbench___024root* vlSelf);
 void VTestbench___024root___nba_sequent__TOP__3(VTestbench___024root* vlSelf);
 void VTestbench___024root___nba_sequent__TOP__4(VTestbench___024root* vlSelf);
+void VTestbench___024root___nba_sequent__TOP__5(VTestbench___024root* vlSelf);
+void VTestbench___024root___nba_sequent__TOP__6(VTestbench___024root* vlSelf);
 
 void VTestbench___024root___eval_nba(VTestbench___024root* vlSelf) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestbench___024root___eval_nba\n"); );
@@ -657,13 +261,18 @@ void VTestbench___024root___eval_nba(VTestbench___024root* vlSelf) {
     if ((1ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         VTestbench___024root___nba_sequent__TOP__2(vlSelf);
     }
-    if ((6ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
+    if ((2ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         VTestbench___024root___nba_sequent__TOP__3(vlSelf);
+    }
+    if ((6ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
+        VTestbench___024root___nba_sequent__TOP__4(vlSelf);
         vlSelfRef.__Vm_traceActivity[3U] = 1U;
     }
     if ((2ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VTestbench___024root___nba_sequent__TOP__4(vlSelf);
-        vlSelfRef.__Vm_traceActivity[4U] = 1U;
+        VTestbench___024root___nba_sequent__TOP__5(vlSelf);
+    }
+    if ((6ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
+        VTestbench___024root___nba_sequent__TOP__6(vlSelf);
     }
 }
 
@@ -677,7 +286,7 @@ VL_INLINE_OPT void VTestbench___024root___nba_sequent__TOP__0(VTestbench___024ro
     vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__product_reg 
         = vlSelfRef.Testbench__DOT__mul__DOT__product_reg;
     if ((0U == (IData)(vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg))) {
-        vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__work_cnt = 0U;
+        vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__work_cnt = 0x1fU;
         vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__product_reg 
             = (QData)((IData)(vlSelfRef.Testbench__DOT__multiplier));
         vlSelfRef.Testbench__DOT__mul__DOT__multiplicand_reg 
@@ -713,12 +322,14 @@ VL_INLINE_OPT void VTestbench___024root___nba_sequent__TOP__1(VTestbench___024ro
     SData/*8:0*/ __Vtableidx1;
     __Vtableidx1 = 0;
     // Body
+    vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__fsm_state_reg 
+        = vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg;
     __Vtableidx1 = (((IData)(vlSelfRef.Testbench__DOT__mul__DOT__work_cnt) 
                      << 4U) | (((IData)(vlSelfRef.Testbench__DOT__start) 
                                 << 3U) | (((IData)(vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg) 
                                            << 1U) | (IData)(vlSelfRef.Testbench__DOT__rst))));
     if (VTestbench__ConstPool__TABLE_h86f156c1_0[__Vtableidx1]) {
-        vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg 
+        vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__fsm_state_reg 
             = VTestbench__ConstPool__TABLE_hf221fe59_0
             [__Vtableidx1];
     }
@@ -731,18 +342,41 @@ VL_INLINE_OPT void VTestbench___024root___nba_sequent__TOP__2(VTestbench___024ro
     // Body
     if (VL_UNLIKELY((vlSelfRef.Testbench__DOT__error))) {
         VL_WRITEF_NX("fail!!!\n",0);
-        VL_FINISH_MT("/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 71, "");
+        VL_FINISH_MT("/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 69, "");
     }
 }
 
-VL_INLINE_OPT void VTestbench___024root___nba_sequent__TOP__4(VTestbench___024root* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    VTestbench___024root___nba_sequent__TOP__4\n"); );
+VL_INLINE_OPT void VTestbench___024root___nba_sequent__TOP__3(VTestbench___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    VTestbench___024root___nba_sequent__TOP__3\n"); );
+    VTestbench__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Body
+    vlSelfRef.Testbench__DOT__mul__DOT__work_cnt = vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__work_cnt;
+}
+
+VL_INLINE_OPT void VTestbench___024root___nba_sequent__TOP__5(VTestbench___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    VTestbench___024root___nba_sequent__TOP__5\n"); );
     VTestbench__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
     vlSelfRef.Testbench__DOT__mul__DOT__product_reg 
         = vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__product_reg;
-    vlSelfRef.Testbench__DOT__mul__DOT__work_cnt = vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__work_cnt;
+    if ((0U != (IData)(vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg))) {
+        if ((1U != (IData)(vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg))) {
+            if ((2U == (IData)(vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg))) {
+                vlSelfRef.Testbench__DOT__mul__DOT__finish_reg = 1U;
+            }
+        }
+    }
+}
+
+VL_INLINE_OPT void VTestbench___024root___nba_sequent__TOP__6(VTestbench___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    VTestbench___024root___nba_sequent__TOP__6\n"); );
+    VTestbench__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Body
+    vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg 
+        = vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__fsm_state_reg;
 }
 
 void VTestbench___024root___timing_resume(VTestbench___024root* vlSelf) {
@@ -750,8 +384,23 @@ void VTestbench___024root___timing_resume(VTestbench___024root* vlSelf) {
     VTestbench__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
+    if ((0x10ULL & vlSelfRef.__VactTriggered.word(0U))) {
+        vlSelfRef.__VtrigSched_haa81d3e7__0.resume(
+                                                   "@(posedge Testbench.mul.finish_reg)");
+    }
     if ((8ULL & vlSelfRef.__VactTriggered.word(0U))) {
         vlSelfRef.__VdlySched.resume();
+    }
+}
+
+void VTestbench___024root___timing_commit(VTestbench___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    VTestbench___024root___timing_commit\n"); );
+    VTestbench__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Body
+    if ((! (0x10ULL & vlSelfRef.__VactTriggered.word(0U)))) {
+        vlSelfRef.__VtrigSched_haa81d3e7__0.commit(
+                                                   "@(posedge Testbench.mul.finish_reg)");
     }
 }
 
@@ -762,10 +411,11 @@ bool VTestbench___024root___eval_phase__act(VTestbench___024root* vlSelf) {
     VTestbench__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Init
-    VlTriggerVec<4> __VpreTriggered;
+    VlTriggerVec<5> __VpreTriggered;
     CData/*0:0*/ __VactExecute;
     // Body
     VTestbench___024root___eval_triggers__act(vlSelf);
+    VTestbench___024root___timing_commit(vlSelf);
     __VactExecute = vlSelfRef.__VactTriggered.any();
     if (__VactExecute) {
         __VpreTriggered.andNot(vlSelfRef.__VactTriggered, vlSelfRef.__VnbaTriggered);

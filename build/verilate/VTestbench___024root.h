@@ -20,13 +20,16 @@ class alignas(VL_CACHE_LINE_BYTES) VTestbench___024root final : public Verilated
     // DESIGN SPECIFIC STATE
     CData/*0:0*/ Testbench__DOT__clk;
     CData/*0:0*/ Testbench__DOT__rst;
+    CData/*0:0*/ Testbench__DOT__mul__DOT__finish_reg;
     CData/*0:0*/ Testbench__DOT__start;
     CData/*0:0*/ Testbench__DOT__error;
     CData/*1:0*/ Testbench__DOT__mul__DOT__fsm_state_reg;
     CData/*4:0*/ Testbench__DOT__mul__DOT__work_cnt;
+    CData/*1:0*/ __Vdly__Testbench__DOT__mul__DOT__fsm_state_reg;
     CData/*4:0*/ __Vdly__Testbench__DOT__mul__DOT__work_cnt;
     CData/*0:0*/ __Vtrigprevexpr___TOP__Testbench__DOT__clk__0;
     CData/*0:0*/ __Vtrigprevexpr___TOP__Testbench__DOT__rst__0;
+    CData/*0:0*/ __Vtrigprevexpr___TOP__Testbench__DOT__mul__DOT__finish_reg__0;
     CData/*0:0*/ __VactContinue;
     IData/*31:0*/ Testbench__DOT__multiplicand;
     IData/*31:0*/ Testbench__DOT__multiplier;
@@ -38,10 +41,11 @@ class alignas(VL_CACHE_LINE_BYTES) VTestbench___024root final : public Verilated
     IData/*31:0*/ __VactIterCount;
     QData/*63:0*/ Testbench__DOT__mul__DOT__product_reg;
     QData/*63:0*/ __Vdly__Testbench__DOT__mul__DOT__product_reg;
-    VlUnpacked<CData/*0:0*/, 5> __Vm_traceActivity;
+    VlUnpacked<CData/*0:0*/, 4> __Vm_traceActivity;
     VlDelayScheduler __VdlySched;
-    VlTriggerVec<4> __VactTriggered;
-    VlTriggerVec<4> __VnbaTriggered;
+    VlTriggerScheduler __VtrigSched_haa81d3e7__0;
+    VlTriggerVec<5> __VactTriggered;
+    VlTriggerVec<5> __VnbaTriggered;
 
     // INTERNAL VARIABLES
     VTestbench__Syms* const vlSymsp;

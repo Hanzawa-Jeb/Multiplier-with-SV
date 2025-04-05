@@ -14,16 +14,14 @@ module Testbench;
         rst=1;
         #20;
         rst=0;
-        for (int i = 0; i < 64; i = i + 1)begin
+        for (int i = 0; i < 16; i = i + 1)begin
             start = 1;
-            multiplicand = 20;
-            multiplier = 40;
-            #20;
+            multiplicand = $random;
+            multiplier = $random;
+            @(posedge finish);
             start = 0;
         end
 
-
-        // fill the code
         $display("success!!!");
         $finish;
     end
