@@ -34,6 +34,7 @@ class alignas(VL_CACHE_LINE_BYTES) VTestbench___024root final : public Verilated
     IData/*31:0*/ Testbench__DOT__multiplicand;
     IData/*31:0*/ Testbench__DOT__multiplier;
     IData/*31:0*/ Testbench__DOT__i;
+    IData/*31:0*/ Testbench__DOT__seed;
     IData/*31:0*/ Testbench__DOT__unnamedblk1__DOT__i;
     IData/*31:0*/ Testbench__DOT__mul__DOT__multiplicand_reg;
     IData/*31:0*/ Testbench__DOT__judge__DOT__multiplicand_reg;

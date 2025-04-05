@@ -9,6 +9,7 @@ module Testbench;
     wire finish;
 
     integer i;
+    integer seed = 0;
     initial begin
         clk=0;
         rst=1;
@@ -16,10 +17,11 @@ module Testbench;
         rst=0;
         for (int i = 0; i < 16; i = i + 1)begin
             start = 1;
-            multiplicand = $random;
-            multiplier = $random;
+            multiplicand = $random(seed);
+            multiplier = $random(seed);
             @(posedge finish);
             start = 0;
+            #20;
         end
 
         $display("success!!!");

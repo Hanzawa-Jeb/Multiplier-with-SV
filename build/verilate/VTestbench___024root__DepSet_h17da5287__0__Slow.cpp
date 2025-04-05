@@ -6,6 +6,7 @@
 #include "VTestbench___024root.h"
 
 VL_ATTR_COLD void VTestbench___024root___eval_static__TOP(VTestbench___024root* vlSelf);
+VL_ATTR_COLD void VTestbench___024root____Vm_traceActivitySetAll(VTestbench___024root* vlSelf);
 
 VL_ATTR_COLD void VTestbench___024root___eval_static(VTestbench___024root* vlSelf) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestbench___024root___eval_static\n"); );
@@ -13,6 +14,7 @@ VL_ATTR_COLD void VTestbench___024root___eval_static(VTestbench___024root* vlSel
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
     VTestbench___024root___eval_static__TOP(vlSelf);
+    VTestbench___024root____Vm_traceActivitySetAll(vlSelf);
 }
 
 VL_ATTR_COLD void VTestbench___024root___eval_static__TOP(VTestbench___024root* vlSelf) {
@@ -20,6 +22,7 @@ VL_ATTR_COLD void VTestbench___024root___eval_static__TOP(VTestbench___024root* 
     VTestbench__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
+    vlSelfRef.Testbench__DOT__seed = 0U;
     vlSelfRef.Testbench__DOT__mul__DOT__finish_reg = 0U;
 }
 
@@ -89,6 +92,17 @@ VL_ATTR_COLD void VTestbench___024root___dump_triggers__nba(VTestbench___024root
 }
 #endif  // VL_DEBUG
 
+VL_ATTR_COLD void VTestbench___024root____Vm_traceActivitySetAll(VTestbench___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    VTestbench___024root____Vm_traceActivitySetAll\n"); );
+    VTestbench__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Body
+    vlSelfRef.__Vm_traceActivity[0U] = 1U;
+    vlSelfRef.__Vm_traceActivity[1U] = 1U;
+    vlSelfRef.__Vm_traceActivity[2U] = 1U;
+    vlSelfRef.__Vm_traceActivity[3U] = 1U;
+}
+
 VL_ATTR_COLD void VTestbench___024root___ctor_var_reset(VTestbench___024root* vlSelf) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestbench___024root___ctor_var_reset\n"); );
     VTestbench__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
@@ -100,6 +114,7 @@ VL_ATTR_COLD void VTestbench___024root___ctor_var_reset(VTestbench___024root* vl
     vlSelf->Testbench__DOT__multiplier = VL_RAND_RESET_I(32);
     vlSelf->Testbench__DOT__start = VL_RAND_RESET_I(1);
     vlSelf->Testbench__DOT__i = VL_RAND_RESET_I(32);
+    vlSelf->Testbench__DOT__seed = VL_RAND_RESET_I(32);
     vlSelf->Testbench__DOT__error = VL_RAND_RESET_I(1);
     vlSelf->Testbench__DOT__unnamedblk1__DOT__i = 0;
     vlSelf->Testbench__DOT__mul__DOT__multiplicand_reg = VL_RAND_RESET_I(32);

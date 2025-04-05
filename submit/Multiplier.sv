@@ -62,7 +62,6 @@ module Multiplier #(
             end
             FINAL: begin
                 product_reg <= product_reg;
-                
                 finish_reg <= 1;
             end
             default: product_reg <= product_reg;
