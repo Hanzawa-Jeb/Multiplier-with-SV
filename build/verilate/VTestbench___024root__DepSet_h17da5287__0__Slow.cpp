@@ -110,8 +110,8 @@ VL_ATTR_COLD void VTestbench___024root___ctor_var_reset(VTestbench___024root* vl
     vlSelf->Testbench__DOT__judge__DOT__multiplicand_reg = VL_RAND_RESET_I(32);
     vlSelf->Testbench__DOT__judge__DOT__multiplier_reg = VL_RAND_RESET_I(32);
     vlSelf->__Vdly__Testbench__DOT__mul__DOT__fsm_state_reg = VL_RAND_RESET_I(2);
-    vlSelf->__Vdly__Testbench__DOT__mul__DOT__product_reg = VL_RAND_RESET_Q(64);
     vlSelf->__Vdly__Testbench__DOT__mul__DOT__work_cnt = VL_RAND_RESET_I(5);
+    vlSelf->__Vdly__Testbench__DOT__mul__DOT__product_reg = VL_RAND_RESET_Q(64);
     vlSelf->__Vtrigprevexpr___TOP__Testbench__DOT__clk__0 = VL_RAND_RESET_I(1);
     vlSelf->__Vtrigprevexpr___TOP__Testbench__DOT__rst__0 = VL_RAND_RESET_I(1);
     vlSelf->__Vtrigprevexpr___TOP__Testbench__DOT__mul__DOT__finish_reg__0 = VL_RAND_RESET_I(1);

@@ -41,7 +41,7 @@ module Multiplier #(
                 WORK:
                 if(work_cnt == 0) fsm_state_reg <= FINAL;
                 FINAL:
-                fsm_state_reg <= FINAL;
+                fsm_state_reg <= IDLE;
                 default:
                 fsm_state_reg <= IDLE;
             endcase
@@ -53,6 +53,7 @@ module Multiplier #(
             IDLE: begin
                 multiplicand_reg <= multiplicand;
                 product_reg <= {{LEN{1'b0}}, multiplier};
+                finish_reg <= 0;
                 work_cnt <= (CNT_LEN)'(LEN - 1);
             end
             WORK: begin
@@ -61,6 +62,7 @@ module Multiplier #(
             end
             FINAL: begin
                 product_reg <= product_reg;
+                
                 finish_reg <= 1;
             end
             default: product_reg <= product_reg;
