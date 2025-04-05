@@ -650,7 +650,6 @@ void VTestbench___024root___eval_nba(VTestbench___024root* vlSelf) {
     // Body
     if ((2ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         VTestbench___024root___nba_sequent__TOP__0(vlSelf);
-        vlSelfRef.__Vm_traceActivity[3U] = 1U;
     }
     if ((6ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         VTestbench___024root___nba_sequent__TOP__1(vlSelf);
@@ -660,11 +659,11 @@ void VTestbench___024root___eval_nba(VTestbench___024root* vlSelf) {
     }
     if ((6ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         VTestbench___024root___nba_sequent__TOP__3(vlSelf);
-        vlSelfRef.__Vm_traceActivity[4U] = 1U;
+        vlSelfRef.__Vm_traceActivity[3U] = 1U;
     }
     if ((2ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         VTestbench___024root___nba_sequent__TOP__4(vlSelf);
-        vlSelfRef.__Vm_traceActivity[5U] = 1U;
+        vlSelfRef.__Vm_traceActivity[4U] = 1U;
     }
 }
 
@@ -672,19 +671,11 @@ VL_INLINE_OPT void VTestbench___024root___nba_sequent__TOP__0(VTestbench___024ro
     VL_DEBUG_IF(VL_DBG_MSGF("+    VTestbench___024root___nba_sequent__TOP__0\n"); );
     VTestbench__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Init
-    IData/*31:0*/ __Vdly__Testbench__DOT__mul__DOT__low_product;
-    __Vdly__Testbench__DOT__mul__DOT__low_product = 0;
-    IData/*31:0*/ __Vdly__Testbench__DOT__mul__DOT__high_product;
-    __Vdly__Testbench__DOT__mul__DOT__high_product = 0;
     // Body
     vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__work_cnt 
         = vlSelfRef.Testbench__DOT__mul__DOT__work_cnt;
     vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__product_reg 
         = vlSelfRef.Testbench__DOT__mul__DOT__product_reg;
-    __Vdly__Testbench__DOT__mul__DOT__low_product = vlSelfRef.Testbench__DOT__mul__DOT__low_product;
-    __Vdly__Testbench__DOT__mul__DOT__high_product 
-        = vlSelfRef.Testbench__DOT__mul__DOT__high_product;
     if ((0U == (IData)(vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg))) {
         vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__work_cnt = 0U;
         vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__product_reg 
@@ -695,25 +686,20 @@ VL_INLINE_OPT void VTestbench___024root___nba_sequent__TOP__0(VTestbench___024ro
         vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__work_cnt 
             = (0x1fU & ((IData)(vlSelfRef.Testbench__DOT__mul__DOT__work_cnt) 
                         - (IData)(1U)));
-        __Vdly__Testbench__DOT__mul__DOT__low_product 
-            = (IData)(vlSelfRef.Testbench__DOT__mul__DOT__product_reg);
-        __Vdly__Testbench__DOT__mul__DOT__high_product 
-            = ((1U & vlSelfRef.Testbench__DOT__mul__DOT__low_product)
-                ? ((IData)((vlSelfRef.Testbench__DOT__mul__DOT__product_reg 
-                            >> 0x20U)) + vlSelfRef.Testbench__DOT__mul__DOT__multiplicand_reg)
-                : (IData)((vlSelfRef.Testbench__DOT__mul__DOT__product_reg 
-                           >> 0x20U)));
         vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__product_reg 
-            = VL_SHIFTR_QQI(64,64,32, (((QData)((IData)(vlSelfRef.Testbench__DOT__mul__DOT__high_product)) 
-                                        << 0x20U) | (QData)((IData)(vlSelfRef.Testbench__DOT__mul__DOT__low_product))), 1U);
+            = ((1U & (IData)(vlSelfRef.Testbench__DOT__mul__DOT__product_reg))
+                ? VL_SHIFTR_QQI(64,64,32, (((QData)((IData)(
+                                                            ((IData)(
+                                                                     (vlSelfRef.Testbench__DOT__mul__DOT__product_reg 
+                                                                      >> 0x20U)) 
+                                                             + vlSelfRef.Testbench__DOT__mul__DOT__multiplicand_reg))) 
+                                            << 0x20U) 
+                                           | (QData)((IData)(vlSelfRef.Testbench__DOT__mul__DOT__product_reg))), 1U)
+                : VL_SHIFTR_QQI(64,64,32, vlSelfRef.Testbench__DOT__mul__DOT__product_reg, 1U));
     } else {
         vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__product_reg 
             = vlSelfRef.Testbench__DOT__mul__DOT__product_reg;
     }
-    vlSelfRef.Testbench__DOT__mul__DOT__low_product 
-        = __Vdly__Testbench__DOT__mul__DOT__low_product;
-    vlSelfRef.Testbench__DOT__mul__DOT__high_product 
-        = __Vdly__Testbench__DOT__mul__DOT__high_product;
 }
 
 extern const VlUnpacked<CData/*0:0*/, 512> VTestbench__ConstPool__TABLE_h86f156c1_0;

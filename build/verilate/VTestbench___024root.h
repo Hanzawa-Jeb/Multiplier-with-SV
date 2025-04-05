@@ -33,14 +33,12 @@ class alignas(VL_CACHE_LINE_BYTES) VTestbench___024root final : public Verilated
     IData/*31:0*/ Testbench__DOT__i;
     IData/*31:0*/ Testbench__DOT__unnamedblk1__DOT__i;
     IData/*31:0*/ Testbench__DOT__mul__DOT__multiplicand_reg;
-    IData/*31:0*/ Testbench__DOT__mul__DOT__high_product;
-    IData/*31:0*/ Testbench__DOT__mul__DOT__low_product;
     IData/*31:0*/ Testbench__DOT__judge__DOT__multiplicand_reg;
     IData/*31:0*/ Testbench__DOT__judge__DOT__multiplier_reg;
     IData/*31:0*/ __VactIterCount;
     QData/*63:0*/ Testbench__DOT__mul__DOT__product_reg;
     QData/*63:0*/ __Vdly__Testbench__DOT__mul__DOT__product_reg;
-    VlUnpacked<CData/*0:0*/, 6> __Vm_traceActivity;
+    VlUnpacked<CData/*0:0*/, 5> __Vm_traceActivity;
     VlDelayScheduler __VdlySched;
     VlTriggerVec<4> __VactTriggered;
     VlTriggerVec<4> __VnbaTriggered;
