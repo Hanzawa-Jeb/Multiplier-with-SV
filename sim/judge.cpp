@@ -7,7 +7,12 @@ extern "C" unsigned int mul_judge (
     unsigned long long int product
 ){
     
-    // fill the code
+    int right = 0;
+    int simulate_result = product;
+
+    if (multiplicand * multiplier == product) {
+        right = 1;
+    }
 
     if(!right){
         printf("*********error***********\n");

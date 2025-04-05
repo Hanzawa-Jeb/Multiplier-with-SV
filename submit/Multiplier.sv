@@ -25,7 +25,7 @@ module Multiplier #(
     //state initialization
     fsm_state fsm_state_reg;
     //register to store all the states
-    logic [CNT_LEN-1:0] work_cnt = CNT_NUM;
+    logic [CNT_LEN-1:0] work_cnt = CNT_LEN'(CNT_NUM);
     //work_cnt to 0->end the procedure
     logic [LEN-1:0] high_product;
     logic [LEN-1:0] low_product;
@@ -33,7 +33,7 @@ module Multiplier #(
     always_ff@(posedge clk or posedge rst)begin
         //used to implement state transfer
         if (rst) begin
-            fsm_state_reg = IDLE;
+            fsm_state_reg <= IDLE;
         end else begin
             case(fsm_state_reg)
                 IDLE:
@@ -41,6 +41,10 @@ module Multiplier #(
                 else fsm_state_reg <= IDLE;
                 WORK:
                 if(work_cnt == 0) fsm_state_reg <= FINAL;
+                FINAL:
+                fsm_state_reg <= FINAL;
+                default:
+                fsm_state_reg <= IDLE;
             endcase
         end
     end
@@ -50,18 +54,22 @@ module Multiplier #(
             IDLE: begin
                 multiplicand_reg <= multiplicand;
                 product_reg <= {{LEN{1'b0}}, multiplier};
-                work_cnt <= CNT_NUM;
+                //work_cnt <= CNT_NUM;
             end
             WORK: begin
                 low_product <= product_reg[LEN-1:0];
                 work_cnt <= work_cnt - 1;
-                if(low_product & 1)begin
-                    high_product <= product_reg[PRODUCT_LEN:LEN] + multiplicand_reg;
+                if(low_product[0])begin
+                    high_product <= product_reg[PRODUCT_LEN - 1:LEN] + multiplicand_reg;
                 end else begin
-                    high_product <= product_reg[PRODUCT_LEN:LEN];
+                    high_product <= product_reg[PRODUCT_LEN - 1:LEN];
                 end
                 product_reg <= {high_product, low_product} >> 1;
             end
+            FINAL: begin
+                product_reg <= product_reg;
+            end
+            default: product_reg <= product_reg;
         endcase
     end
 

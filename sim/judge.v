@@ -1,5 +1,9 @@
 // fill the code
-
+import "DPI-C" function int mul_judge(
+    input int unsigned multiplicand, 
+    input int unsigned multiplier,
+    input longint unsigned product
+);
 
 module Judge (
     input clk,
