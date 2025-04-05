@@ -22,7 +22,7 @@ VL_ATTR_COLD void VTestbench___024root___eval_static__TOP(VTestbench___024root* 
     VTestbench__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
-    vlSelfRef.Testbench__DOT__mul__DOT__work_cnt = 0x1fU;
+    vlSelfRef.Testbench__DOT__mul__DOT__work_cnt = 0U;
 }
 
 VL_ATTR_COLD void VTestbench___024root___eval_final(VTestbench___024root* vlSelf) {

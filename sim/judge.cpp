@@ -8,7 +8,7 @@ extern "C" unsigned int mul_judge (
 ){
     
     int right = 0;
-    int simulate_result = product;
+    long long int simulate_result = multiplicand * multiplier;
 
     if (multiplicand * multiplier == product) {
         right = 1;
@@ -16,10 +16,10 @@ extern "C" unsigned int mul_judge (
 
     if(!right){
         printf("*********error***********\n");
-        printf("simulation multiplicand = %08x, multiplier = %08x, product = %016llx\n", multiplicand, multiplier, simulate_result);
-        printf("hardware   multiplicand = %08x, multiplier = %08x, product = %016llx\n", multiplicand, multiplier, product);
+        printf("simulation multiplicand = %08d, multiplier = %08d, product = %016lld\n", multiplicand, multiplier, simulate_result);
+        printf("hardware   multiplicand = %08d, multiplier = %08d, product = %016lld\n", multiplicand, multiplier, product);
     }else{
-        printf("simulation multiplicand = %08x, multiplier = %08x, product = %016llx\n", multiplicand, multiplier, simulate_result);
+        printf("simulation multiplicand = %08d, multiplier = %08d, product = %016lld\n", multiplicand, multiplier, simulate_result);
     }
 
     return right;

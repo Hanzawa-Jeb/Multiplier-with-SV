@@ -16,8 +16,8 @@ module Testbench;
         rst=0;
         for (int i = 0; i < 64; i = i + 1)begin
             start = 1;
-            multiplicand = $random;
-            multiplier = $random;
+            multiplicand = 20;
+            multiplier = 40;
             #20;
             start = 0;
         end

@@ -25,7 +25,7 @@ module Multiplier #(
     //state initialization
     fsm_state fsm_state_reg;
     //register to store all the states
-    logic [CNT_LEN-1:0] work_cnt = CNT_LEN'(CNT_NUM);
+    logic [CNT_LEN-1:0] work_cnt = CNT_LEN'(LEN);
     //work_cnt to 0->end the procedure
     logic [LEN-1:0] high_product;
     logic [LEN-1:0] low_product;
@@ -54,6 +54,7 @@ module Multiplier #(
             IDLE: begin
                 multiplicand_reg <= multiplicand;
                 product_reg <= {{LEN{1'b0}}, multiplier};
+                work_cnt <= CNT_LEN'(LEN);
                 //work_cnt <= CNT_NUM;
             end
             WORK: begin

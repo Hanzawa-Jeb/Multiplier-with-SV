@@ -37,8 +37,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.Testbench__DOT__rst = 0U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -46,8 +46,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 1U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -55,8 +55,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 2U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -64,8 +64,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 3U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -73,8 +73,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 4U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -82,8 +82,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 5U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -91,8 +91,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 6U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -100,8 +100,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 7U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -109,8 +109,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 8U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -118,8 +118,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 9U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -127,8 +127,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0xaU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -136,8 +136,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0xbU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -145,8 +145,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0xcU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -154,8 +154,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0xdU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -163,8 +163,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0xeU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -172,8 +172,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0xfU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -181,8 +181,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x10U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -190,8 +190,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x11U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -199,8 +199,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x12U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -208,8 +208,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x13U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -217,8 +217,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x14U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -226,8 +226,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x15U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -235,8 +235,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x16U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -244,8 +244,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x17U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -253,8 +253,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x18U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -262,8 +262,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x19U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -271,8 +271,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x1aU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -280,8 +280,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x1bU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -289,8 +289,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x1cU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -298,8 +298,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x1dU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -307,8 +307,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x1eU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -316,8 +316,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x1fU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -325,8 +325,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x20U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -334,8 +334,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x21U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -343,8 +343,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x22U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -352,8 +352,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x23U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -361,8 +361,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x24U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -370,8 +370,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x25U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -379,8 +379,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x26U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -388,8 +388,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x27U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -397,8 +397,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x28U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -406,8 +406,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x29U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -415,8 +415,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x2aU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -424,8 +424,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x2bU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -433,8 +433,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x2cU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -442,8 +442,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x2dU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -451,8 +451,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x2eU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -460,8 +460,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x2fU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -469,8 +469,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x30U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -478,8 +478,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x31U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -487,8 +487,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x32U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -496,8 +496,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x33U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -505,8 +505,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x34U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -514,8 +514,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x35U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -523,8 +523,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x36U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -532,8 +532,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x37U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -541,8 +541,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x38U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -550,8 +550,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x39U;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -559,8 +559,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x3aU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -568,8 +568,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x3bU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -577,8 +577,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x3cU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -586,8 +586,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x3dU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -595,8 +595,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x3eU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -604,8 +604,8 @@ VL_INLINE_OPT VlCoroutine VTestbench___024root___eval_initial__TOP__Vtiming__0(V
     vlSelfRef.Testbench__DOT__start = 0U;
     vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i = 0x3fU;
     vlSelfRef.Testbench__DOT__start = 1U;
-    vlSelfRef.Testbench__DOT__multiplicand = VL_RANDOM_I();
-    vlSelfRef.Testbench__DOT__multiplier = VL_RANDOM_I();
+    vlSelfRef.Testbench__DOT__multiplicand = 0x14U;
+    vlSelfRef.Testbench__DOT__multiplier = 0x28U;
     co_await vlSelfRef.__VdlySched.delay(0x7d0ULL, 
                                          nullptr, "/mnt/d/sysI/sys1-sp25/src/lab3-3/sim/testbench.v", 
                                          21);
@@ -685,19 +685,16 @@ VL_INLINE_OPT void VTestbench___024root___nba_sequent__TOP__0(VTestbench___024ro
     __Vdly__Testbench__DOT__mul__DOT__low_product = vlSelfRef.Testbench__DOT__mul__DOT__low_product;
     __Vdly__Testbench__DOT__mul__DOT__high_product 
         = vlSelfRef.Testbench__DOT__mul__DOT__high_product;
-    if ((0U != (IData)(vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg))) {
-        if ((1U == (IData)(vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg))) {
-            vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__work_cnt 
-                = (0x1fU & ((IData)(vlSelfRef.Testbench__DOT__mul__DOT__work_cnt) 
-                            - (IData)(1U)));
-        }
-    }
     if ((0U == (IData)(vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg))) {
+        vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__work_cnt = 0U;
         vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__product_reg 
             = (QData)((IData)(vlSelfRef.Testbench__DOT__multiplier));
         vlSelfRef.Testbench__DOT__mul__DOT__multiplicand_reg 
             = vlSelfRef.Testbench__DOT__multiplicand;
     } else if ((1U == (IData)(vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg))) {
+        vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__work_cnt 
+            = (0x1fU & ((IData)(vlSelfRef.Testbench__DOT__mul__DOT__work_cnt) 
+                        - (IData)(1U)));
         __Vdly__Testbench__DOT__mul__DOT__low_product 
             = (IData)(vlSelfRef.Testbench__DOT__mul__DOT__product_reg);
         __Vdly__Testbench__DOT__mul__DOT__high_product 
