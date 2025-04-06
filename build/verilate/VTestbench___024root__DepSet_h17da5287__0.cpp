@@ -318,6 +318,7 @@ void VTestbench___024root___eval_nba(VTestbench___024root* vlSelf) {
     // Body
     if ((2ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         VTestbench___024root___nba_sequent__TOP__0(vlSelf);
+        vlSelfRef.__Vm_traceActivity[3U] = 1U;
     }
     if ((6ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         VTestbench___024root___nba_sequent__TOP__1(vlSelf);
@@ -330,7 +331,7 @@ void VTestbench___024root___eval_nba(VTestbench___024root* vlSelf) {
     }
     if ((6ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         VTestbench___024root___nba_sequent__TOP__4(vlSelf);
-        vlSelfRef.__Vm_traceActivity[3U] = 1U;
+        vlSelfRef.__Vm_traceActivity[4U] = 1U;
     }
     if ((2ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         VTestbench___024root___nba_sequent__TOP__5(vlSelf);
@@ -359,16 +360,27 @@ VL_INLINE_OPT void VTestbench___024root___nba_sequent__TOP__0(VTestbench___024ro
         vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__work_cnt 
             = (0x1fU & ((IData)(vlSelfRef.Testbench__DOT__mul__DOT__work_cnt) 
                         - (IData)(1U)));
-        vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__product_reg 
-            = ((1U & (IData)(vlSelfRef.Testbench__DOT__mul__DOT__product_reg))
-                ? VL_SHIFTR_QQI(64,64,32, (((QData)((IData)(
-                                                            ((IData)(
-                                                                     (vlSelfRef.Testbench__DOT__mul__DOT__product_reg 
-                                                                      >> 0x20U)) 
-                                                             + vlSelfRef.Testbench__DOT__mul__DOT__multiplicand_reg))) 
-                                            << 0x20U) 
-                                           | (QData)((IData)(vlSelfRef.Testbench__DOT__mul__DOT__product_reg))), 1U)
-                : VL_SHIFTR_QQI(64,64,32, vlSelfRef.Testbench__DOT__mul__DOT__product_reg, 1U));
+        if ((1U & (IData)(vlSelfRef.Testbench__DOT__mul__DOT__product_reg))) {
+            vlSelfRef.Testbench__DOT__mul__DOT__unnamedblk1__DOT__add_result 
+                = (0x1ffffffffULL & ((QData)((IData)(
+                                                     (vlSelfRef.Testbench__DOT__mul__DOT__product_reg 
+                                                      >> 0x20U))) 
+                                     + (QData)((IData)(vlSelfRef.Testbench__DOT__mul__DOT__multiplicand_reg))));
+            vlSelfRef.Testbench__DOT__mul__DOT__temp_carry 
+                = (1U & (IData)((vlSelfRef.Testbench__DOT__mul__DOT__unnamedblk1__DOT__add_result 
+                                 >> 0x20U)));
+            vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__product_reg 
+                = ((vlSelfRef.Testbench__DOT__mul__DOT__unnamedblk1__DOT__add_result 
+                    << 0x1fU) | (QData)((IData)((0x7fffffffU 
+                                                 & (IData)(
+                                                           (vlSelfRef.Testbench__DOT__mul__DOT__product_reg 
+                                                            >> 1U))))));
+        } else {
+            vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__product_reg 
+                = (vlSelfRef.Testbench__DOT__mul__DOT__product_reg 
+                   >> 1U);
+            vlSelfRef.Testbench__DOT__mul__DOT__temp_carry = 0U;
+        }
     } else {
         vlSelfRef.__Vdly__Testbench__DOT__mul__DOT__product_reg 
             = vlSelfRef.Testbench__DOT__mul__DOT__product_reg;

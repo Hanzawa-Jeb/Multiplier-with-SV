@@ -18,7 +18,7 @@ module Multiplier #(
     logic [PRODUCT_LEN-1:0] product_reg;
     //initialize the product register
     localparam CNT_LEN = $clog2(LEN);
-    //???
+    //length of the register of total count
     localparam CNT_NUM = LEN - 1;
     //count of the adding times
     typedef enum logic [1:0] {IDLE, WORK, FINAL} fsm_state;
@@ -58,7 +58,14 @@ module Multiplier #(
             end
             WORK: begin
                 work_cnt <= work_cnt - 1;
-                product_reg <= product_reg[0] ? {product_reg[PRODUCT_LEN-1:LEN] + multiplicand_reg, product_reg[LEN-1:0]} >> 1 : product_reg >> 1;
+                if (product_reg[0]) begin
+                    //calculate the carry signal
+                    logic [LEN:0] add_result; 
+                    add_result = {1'b0, product_reg[PRODUCT_LEN-1:LEN]} + {1'b0, multiplicand_reg};
+                    product_reg <= {add_result[LEN], add_result[LEN-1:0], product_reg[LEN-1:1]};
+                end else begin
+                    product_reg <= {1'b0, product_reg[PRODUCT_LEN-1:1]};
+                end
             end
             FINAL: begin
                 product_reg <= product_reg;
@@ -71,5 +78,6 @@ module Multiplier #(
     assign product = product_reg;
     assign finish = finish_reg;
     //control signal and output signal
+
     
 endmodule

@@ -35,16 +35,20 @@ void VTestbench___024root__trace_chg_0_sub_0(VTestbench___024root* vlSelf, Veril
         bufp->chgIData(oldp+6,(vlSelfRef.Testbench__DOT__unnamedblk1__DOT__i),32);
     }
     if (VL_UNLIKELY((vlSelfRef.__Vm_traceActivity[3U]))) {
-        bufp->chgBit(oldp+7,(vlSelfRef.Testbench__DOT__error));
-        bufp->chgIData(oldp+8,(vlSelfRef.Testbench__DOT__judge__DOT__multiplicand_reg),32);
-        bufp->chgIData(oldp+9,(vlSelfRef.Testbench__DOT__judge__DOT__multiplier_reg),32);
+        bufp->chgIData(oldp+7,(vlSelfRef.Testbench__DOT__mul__DOT__multiplicand_reg),32);
+        bufp->chgBit(oldp+8,(vlSelfRef.Testbench__DOT__mul__DOT__temp_carry));
+        bufp->chgQData(oldp+9,(vlSelfRef.Testbench__DOT__mul__DOT__unnamedblk1__DOT__add_result),33);
     }
-    bufp->chgBit(oldp+10,(vlSelfRef.Testbench__DOT__clk));
-    bufp->chgQData(oldp+11,(vlSelfRef.Testbench__DOT__mul__DOT__product_reg),64);
-    bufp->chgBit(oldp+13,(vlSelfRef.Testbench__DOT__mul__DOT__finish_reg));
-    bufp->chgIData(oldp+14,(vlSelfRef.Testbench__DOT__mul__DOT__multiplicand_reg),32);
-    bufp->chgCData(oldp+15,(vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg),2);
-    bufp->chgCData(oldp+16,(vlSelfRef.Testbench__DOT__mul__DOT__work_cnt),5);
+    if (VL_UNLIKELY((vlSelfRef.__Vm_traceActivity[4U]))) {
+        bufp->chgBit(oldp+11,(vlSelfRef.Testbench__DOT__error));
+        bufp->chgIData(oldp+12,(vlSelfRef.Testbench__DOT__judge__DOT__multiplicand_reg),32);
+        bufp->chgIData(oldp+13,(vlSelfRef.Testbench__DOT__judge__DOT__multiplier_reg),32);
+    }
+    bufp->chgBit(oldp+14,(vlSelfRef.Testbench__DOT__clk));
+    bufp->chgQData(oldp+15,(vlSelfRef.Testbench__DOT__mul__DOT__product_reg),64);
+    bufp->chgBit(oldp+17,(vlSelfRef.Testbench__DOT__mul__DOT__finish_reg));
+    bufp->chgCData(oldp+18,(vlSelfRef.Testbench__DOT__mul__DOT__fsm_state_reg),2);
+    bufp->chgCData(oldp+19,(vlSelfRef.Testbench__DOT__mul__DOT__work_cnt),5);
 }
 
 void VTestbench___024root__trace_cleanup(void* voidSelf, VerilatedVcd* /*unused*/) {
@@ -58,4 +62,5 @@ void VTestbench___024root__trace_cleanup(void* voidSelf, VerilatedVcd* /*unused*
     vlSymsp->TOP.__Vm_traceActivity[1U] = 0U;
     vlSymsp->TOP.__Vm_traceActivity[2U] = 0U;
     vlSymsp->TOP.__Vm_traceActivity[3U] = 0U;
+    vlSymsp->TOP.__Vm_traceActivity[4U] = 0U;
 }
