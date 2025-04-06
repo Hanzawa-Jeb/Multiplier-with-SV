@@ -18,6 +18,7 @@ module Multiplier #(
     logic [PRODUCT_LEN-1:0] product_reg;
     //initialize the product register
     localparam CNT_LEN = $clog2(LEN);
+    //get the ceiling of log2(LEN)
     //length of the register of total count
     localparam CNT_NUM = LEN - 1;
     //count of the adding times
@@ -28,6 +29,7 @@ module Multiplier #(
     logic [CNT_LEN-1:0] work_cnt;
     //work_cnt to 0->end the procedure
     logic finish_reg = 0;
+    logic [LEN:0] add_result;
 
     always_ff@(posedge clk or posedge rst)begin
         //used to implement state transfer
@@ -48,6 +50,10 @@ module Multiplier #(
         end
     end
 
+    always_comb begin
+        add_result = {1'b0, product_reg[PRODUCT_LEN-1:LEN]} + {1'b0, multiplicand_reg};
+    end
+
     always_ff@(posedge clk)begin
         case(fsm_state_reg)
             IDLE: begin
@@ -59,12 +65,11 @@ module Multiplier #(
             WORK: begin
                 work_cnt <= work_cnt - 1;
                 if (product_reg[0]) begin
-                    //calculate the carry signal
-                    logic [LEN:0] add_result; 
-                    add_result = {1'b0, product_reg[PRODUCT_LEN-1:LEN]} + {1'b0, multiplicand_reg};
+                    //calculate the carry signal and concat.
                     product_reg <= {add_result[LEN], add_result[LEN-1:0], product_reg[LEN-1:1]};
                 end else begin
                     product_reg <= {1'b0, product_reg[PRODUCT_LEN-1:1]};
+                    //implement right shift with indexing
                 end
             end
             FINAL: begin
